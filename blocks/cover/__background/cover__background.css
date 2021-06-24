@@ -9,7 +9,7 @@
   min-width: 1184px;
   min-height: 740px;
   text-decoration-line: none;
-  color: white
+  color: white;
 }
 
 .cover__background::before {
@@ -32,40 +32,32 @@
   .cover__background {
     min-width: 1024px;
     min-height: 640px;
-
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    min-width: 873px;
-    min-height: 545.6px;
+    min-width: 768px;
+    min-height: 480px;
   }
 }
 
 
-@media screen and (max-width: 872px) {
+@media screen and (max-width: 767px) {
   .cover__background {
-    min-width: 722px;
-    min-height: 451.25px;
+    min-width: 425px;
+    min-height: 265.6px;
   }
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 424px) {
   .cover__background {
-    min-width: 571px;
-    min-height: 356.8px;
+    min-width: 375px;
+    min-height: 234.3px;
   }
 }
 
-@media screen and (max-width: 572px) {
-  .cover__background {
-    min-width: 421px;
-    min-height: 263.1px;
-  }
-}
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 374px) {
   .cover__background {
     min-width: 320px;
     min-height: 200px;

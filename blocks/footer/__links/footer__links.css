@@ -1,7 +1,3 @@
-.footer__links {
-
-}
-
 @media screen and (max-width: 767px) {
   .footer__links {
     display: flex;
