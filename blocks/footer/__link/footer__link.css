@@ -1,0 +1,20 @@
+.footer__link {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration-line: none;
+  margin: 0 18px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 32px;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 48px;
+  }
+}
