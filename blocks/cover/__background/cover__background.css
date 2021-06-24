@@ -6,8 +6,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 1184px;
-  height: 740px;
+  min-width: 1184px;
+  min-height: 740px;
+  text-decoration-line: none;
+  color: white
 }
 
 .cover__background::before {
@@ -28,23 +30,44 @@
 
 @media screen and (max-width: 1184px) {
   .cover__background {
-    width: 1024px;
-    height: 640px;
+    min-width: 1024px;
+    min-height: 640px;
 
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    width: 768px;
-    height: 480px;
+    min-width: 873px;
+    min-height: 545.6px;
   }
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 872px) {
   .cover__background {
-    width: 320px;
-    height: 200px;
+    min-width: 722px;
+    min-height: 451.25px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .cover__background {
+    min-width: 571px;
+    min-height: 356.8px;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .cover__background {
+    min-width: 421px;
+    min-height: 263.1px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover__background {
+    min-width: 320px;
+    min-height: 200px;
   }
 }

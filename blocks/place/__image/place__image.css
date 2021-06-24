@@ -1,29 +1,18 @@
 .place__image {
-  width: 460px;
-  height: 460px;
-  margin-top: 48px;
-}
-
-@media screen and (max-width: 1200px) {
-  .place__image {
-  width: 440px;
-  height: 440px;
-  margin-top: 48px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .place__image {
-  width: 340px;
-  height: 340px;
-  margin-top: 48px;
-  }
+  object-fit: contain;
+  max-width: 460px;
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
-    width: 320px;
-    height: 320px;
-    margin-top: 0;
+    max-width: 320px;
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  .place__image {
+    min-width: 320px;
+    margin: 0;
   }
 }

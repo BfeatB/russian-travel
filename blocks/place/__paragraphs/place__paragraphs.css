@@ -1,26 +1,5 @@
-.place__paragraphs {
-  max-width: 484px;
-  margin-left: 40px;
-  margin-top: 48px;
-}
-
-@media screen and (max-width: 1200px) {
-  .place__paragraphs {
-    max-width: 456px;
-    margin-left: 32px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .place__paragraphs {
-    max-width: 352px;
-    margin-left: 28px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .place__paragraphs {
-    max-width: 288px;
-    margin: 32px 16px 0 16px;
+    margin: 0 5%;
   }
 }
