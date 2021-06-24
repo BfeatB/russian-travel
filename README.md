@@ -11,4 +11,4 @@
 * Использование Grid Layout для построения сетки
 * Зазработка с помощью Figma
 
-Полюбоваться на проект можно [здесь](https://github.com/BfeatB/russian-travel).
+Полюбоваться на проект можно [здесь](https://bfeatb.github.io/russian-travel/).
