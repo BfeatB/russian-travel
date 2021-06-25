@@ -3,14 +3,15 @@
   line-height: 18px;
   color: white;
   text-decoration-line: none;
-  margin: 0 18px 0 0;
+  margin: 0 14px 0 0;
 }
 
 @media screen and (max-width: 767px) {
   .footer__link {
     font-size: 22px;
     line-height: 22px;
-    margin-bottom: 32px;
+    margin: 0 0 34px 0;
+    letter-spacing: 0.05em;
   }
 
   .footer__link:last-child {

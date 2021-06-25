@@ -7,3 +7,15 @@ text-align: left;
 max-width: 690px;
 margin: 40px 0 0 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

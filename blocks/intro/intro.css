@@ -6,10 +6,16 @@
   min-width: 984px;
 }
 
+@media screen and (max-width: 1200px) {
+  .intro {
+    padding-left: 5.5%;
+  }
+}
 @media screen and (max-width: 1023px) {
   .intro {
     min-width: 720px;
     margin: 0 24px;
+    padding-left: 0;
   }
 }
 

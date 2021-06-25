@@ -4,6 +4,12 @@
   padding: 0 48px 24px 48px;
 }
 
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 0 25px 24px 25px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer {
     display: flex;
